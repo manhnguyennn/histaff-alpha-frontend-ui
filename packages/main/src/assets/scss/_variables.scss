@@ -83,42 +83,6 @@
 }
 
 
-// font
-$font-family: 'InterDisplay', sans-serif;
-
-// light color variable
-$sidebarbg: white;
-$background: $bg-gray;
-$cardbg: white;
-$toolbar: white;
-$cardshadow: rgb(145 158 171 / 30%) 0px 0px 2px 0px, rgb(145 158 171 / 12%) 0px 12px 24px -4px;
-$hoverBgColor: #f6f9fc;
-
-// Dark color variable
-$darksidebarbg: #2a3447;
-$darkbackground: #2a3447;
-$darkcardbg: #2a3447;
-$darktoolbar: #2a3447;
-$darkcardshadow: rgba(145, 158, 171, 0.3) 0px 0px 2px 0px, rgba(145, 158, 171, 0.02) 0px 12px 24px -4px;
-$darkborderColor: #333f55;
-$darkformborderColor: #465670;
-$darkhoverbgcolor: #333f55;
-$darkthemelightprimary: #253662;
-$darkthemelightaccent: #1C455D;
-$darkthemelightwarning: #4D3A2A;
-$darkthemelighterror: #4B313D;
-$darkthemelightsuccess: #1B3C48;
-
-// Sidenav
-$sidenav-desktop: 270px !default;
-$sidenav-mini: 80px !default;
-$header-height: 70px !default;
-
-
-//BorderColor
-$borderColor: #e5eaef;
-$borderformColor: #dfe5ef;
-
 // custom
 $primary: #5d87ff;
 $accent: #49beff;
@@ -413,3 +377,40 @@ html {
 .mat-mdc-mini-fab {
   --mat-fab-small-foreground-color: #29343d;
 }
+
+
+// font
+$font-family: 'InterDisplay', sans-serif;
+
+// light color variable
+$sidebarbg: white;
+$background: $bg-gray;
+$cardbg: white;
+$toolbar: white;
+$cardshadow: rgb(145 158 171 / 30%) 0px 0px 2px 0px, rgb(145 158 171 / 12%) 0px 12px 24px -4px;
+$hoverBgColor: #f6f9fc;
+
+// Dark color variable
+$darksidebarbg: #2a3447;
+$darkbackground: #2a3447;
+$darkcardbg: #2a3447;
+$darktoolbar: #2a3447;
+$darkcardshadow: rgba(145, 158, 171, 0.3) 0px 0px 2px 0px, rgba(145, 158, 171, 0.02) 0px 12px 24px -4px;
+$darkborderColor: #333f55;
+$darkformborderColor: #465670;
+$darkhoverbgcolor: #333f55;
+$darkthemelightprimary: #253662;
+$darkthemelightaccent: #1C455D;
+$darkthemelightwarning: #4D3A2A;
+$darkthemelighterror: #4B313D;
+$darkthemelightsuccess: #1B3C48;
+
+// Sidenav
+$sidenav-desktop: 270px !default;
+$sidenav-mini: 80px !default;
+$header-height: 70px !default;
+
+
+//BorderColor
+$borderColor: #e5eaef;
+$borderformColor: #dfe5ef;
