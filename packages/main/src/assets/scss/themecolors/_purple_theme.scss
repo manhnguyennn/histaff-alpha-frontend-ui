@@ -1,7 +1,7 @@
 $mat-primary: (
-  100: #f2ecf9,
-  500: #763ebd,
-  700: #6e35b7,
+  100: $blue-100,
+  500: $blue-500,
+  700: $blue-700,
   contrast: (
     100: rgba(black, 0.87),
     500: white,
@@ -9,9 +9,9 @@ $mat-primary: (
   ),
 );
 $mat-secondary: (
-  100: #edf8fa,
-  500: #95cfd5,
-  700: #8bc8ce,
+  100: $secondary-100,
+  500: $secondary-500,
+  700: $secondary-700,
   contrast: (
     100: white,
     500: white,
@@ -19,9 +19,9 @@ $mat-secondary: (
   ),
 );
 $mat-warn: (
-  100: #FDEDE8,
-  500: #fa896b,
-  700: #f3704d,
+  100: $red-25,
+  500: $red-400,
+  700: $red-600,
   contrast: (
     100: white,
     500: white,
@@ -41,7 +41,7 @@ $purpletheme: mat.m2-define-light-theme(
     ),
     typography:
       mat.m2-define-typography-config(
-        $font-family: "Plus Jakarta Sans",
+        $font-family: $font-family,
       ),
   )
 );
@@ -68,8 +68,8 @@ $darkpurpletheme: mat.m2-define-dark-theme(
 );
 
 .mdc-list-item:hover::before {
-  --mdc-list-list-item-hover-state-layer-color: #763ebd;
-  --mdc-list-list-item-focus-state-layer-color:#763ebd;
+  --mdc-list-list-item-hover-state-layer-color: $blue-400;
+  --mdc-list-list-item-focus-state-layer-color:$blue-400;
 }
 
 .bg-primary {
