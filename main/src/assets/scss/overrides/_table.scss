@@ -4,5 +4,9 @@
 }
 
 .mdc-data-table__cell, .mdc-data-table__header-cell {
-    border-bottom-color: $borderColor;
+  border-bottom-color: $borderColor;
+}
+
+.mat-mdc-cell {
+  border-bottom-color: $borderColor !important;
 }

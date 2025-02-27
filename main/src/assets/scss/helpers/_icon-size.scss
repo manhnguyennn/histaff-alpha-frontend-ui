@@ -7,6 +7,8 @@ $columns: 48;
     .icon-#{$i} {
       height: #{$i}px !important;
       width: #{$i}px !important;
+      display: flex !important;
+      align-items: center;
     }
   }
 }
