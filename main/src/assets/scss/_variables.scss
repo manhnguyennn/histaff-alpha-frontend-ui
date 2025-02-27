@@ -222,6 +222,8 @@ $font-weight-semibold: 600 !default;
 $font-weight-bold: 700 !default;
 $font-weight-extrabold: 800 !default;
 
+$heading-line-height: 130% !default;
+
 $h1-font-size: 36px !default;
 $h2-font-size: 30px !default;
 $h3-font-size: 24px !default;
@@ -232,8 +234,8 @@ $h6-font-size: 14px !default;
 $h1-letter-spacing: -0.03rem !default;
 $h2-letter-spacing: -0.03rem !default;
 $h3-letter-spacing: -0.03rem !default;
-$h4-letter-spacing: -0.15rem !default;
-$h5-letter-spacing: -0.15rem !default;
+$h4-letter-spacing: -0.015rem !default;
+$h5-letter-spacing: -0.015rem !default;
 $h6-letter-spacing: normal !default;
 
 // Buttons
@@ -307,7 +309,6 @@ $borderColor: #e5eaef;
 $borderformColor: #dfe5ef;
 
 
-
 html {
   background: $background;
   --mat-expansion-container-shape: 12px !important;
@@ -354,6 +355,8 @@ html {
   .mat-mdc-form-field-infix {
     --mat-form-field-container-height: 40px;
     --mat-form-field-container-vertical-padding: 8px;
+    display: flex;
+    align-items: center;
   }
 
   .mat-mdc-tab-header {

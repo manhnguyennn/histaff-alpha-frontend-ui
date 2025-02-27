@@ -12,3 +12,8 @@ $columns: 48;
 }
 
 @include icon_size;
+
+.mat-icon{
+  display: flex !important;
+  align-items: center;
+}

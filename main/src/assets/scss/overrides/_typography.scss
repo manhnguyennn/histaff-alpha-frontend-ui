@@ -98,3 +98,47 @@ $body-2: mat.m2-define-typography-level(16px, 22px, 400),
 .mat-drawer {
   color: $textPrimary;
 }
+
+.lt-03 {
+  letter-spacing: -0.03rem;
+}
+
+.lt-15 {
+  letter-spacing: -0.15rem;
+}
+
+h1 {
+  font-size: $h1-font-size;
+  letter-spacing: $h1-letter-spacing;
+  line-height: $heading-line-height;
+}
+
+h2 {
+  font-size: $h2-font-size;
+  letter-spacing: $h2-letter-spacing;
+  line-height: $heading-line-height;
+}
+
+h3 {
+  font-size: $h3-font-size;
+  letter-spacing: $h3-letter-spacing;
+  line-height: $heading-line-height;
+}
+
+h4 {
+  font-size: $h4-font-size;
+  letter-spacing: $h4-letter-spacing;
+  line-height: $heading-line-height;
+}
+
+h5 {
+  font-size: $h5-font-size;
+  letter-spacing: $h5-letter-spacing;
+  line-height: $heading-line-height;
+}
+
+h6 {
+  font-size: $h6-font-size;
+  letter-spacing: $h6-letter-spacing;
+  line-height: $heading-line-height;
+}
